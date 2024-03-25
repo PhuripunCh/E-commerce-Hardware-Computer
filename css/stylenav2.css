@@ -1,0 +1,266 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the Navbar */
+.navbar {
+    color: #ffffff;
+    background-color: #343a40; /* สีพื้นหลังของ Navbar */
+    padding: 15px 0; /* ระยะห่างขอบของ Navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเอฟเฟกต์ drop shadow */
+    
+}
+.navbar a {
+    margin-right: 10px; /* เพิ่มระยะห่างขวา */
+    margin-left: 50px; /* เพิ่มระยะห่างซ้าย */
+    text-decoration: none; /* เอา underline ออก */
+    color: #fff;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    font-weight: bold; /* ตัวหนา */
+
+}
+
+.logo a{
+
+    color: #fff; /* สีข้อความ */
+    font-weight: bold; /* ตัวหนา */
+    font-size: 24px; /* ขนาดตัวอักษร */
+}
+
+.logo i {
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.nav-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none; /* ลบ bullet points ของรายการ */
+
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    font-weight: bold;
+    text-decoration: none; /* ลบ underline ของลิงค์ */
+    color: #fff; /* สีข้อความ */
+    margin: 0 15px; /* ระยะห่างระหว่างลิงค์ */
+    transition: color 0.3s ease; /* เพิ่มเอฟเฟกต์ transition */
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.user-actions a {
+    text-decoration: none; /* ลบ underline ของลิงค์ */
+    color: #fff; /* สีข้อความ */
+    margin: 0 15px; /* ระยะห่างระหว่างลิงค์ */
+    transition: color 0.3s ease; /* เพิ่มเอฟเฟกต์ transition */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.search-icon {
+    margin-right: 10px; /* ระยะห่างระหว่างไอคอนกับ input */
+}
+.form-control {
+    margin: 0 10px; /* ระยะห่างระหว่างช่องกรอกและไอคอน */
+}
+
+
+/* Style the FontAwesome icons */
+.fa-code {
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+
+
+/* สไตล์ของ Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+
+}
+
+.footer .container {
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 100px; /* ปรับขนาดของโลโก้ของ Footer ตามต้องการ */
+    height: auto;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+/* ไฟล์ style.css */
+/* ไฟล์ style.css */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* โค้ด CSS อื่น ๆ ของคุณ */
+body {
+    font-family: 'Prompt', sans-serif;
+    /* เลือก weight ตามต้องการ */
+   
+}
+.search-container {
+    display: flex;
+    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวตั้ง */
+}
+
+.search-container i {
+    margin-right: 10px; /* เพิ่มระยะห่างด้านขวาของไอคอน */
+}
+
+.image{
+    width: 80%; /* ทำให้ความกว้างเต็มตามพื้นที่ที่กำหนด */
+        height: 500px; /* รักษาสัดส่วนของรูปภาพ */
+        display: block; /* ยกเลิกการจัดวางแบบ inline */
+        margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
+.headcontent{
+    margin-left: 100px;
+    font-size: 40px;
+    border-bottom: 2px solid #000; /* สีของขีด (black ในที่นี้) */
+    margin-right: 100px;
+}
+.headcontent1{
+    margin-left: 100px;
+    font-size: 40px;
+    border-top: 2px solid #000; /* สีของขีด (black ในที่นี้) */
+    margin-right: 100px;
+}
+
+.content{
+    margin-left: 100px;
+    font-size: 20px;
+    width: 300px;
+    margin-right: 10px;
+    
+}
+
+.card-img-top {
+    width: 70%; /* ทำให้รูปภาพเต็มความกว้างของ div */
+    height: auto; /* รักษาสัดส่วนของรูปภาพ */
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img-top {
+    width: 70%;
+    height: auto;
+}
+
+.card-body {
+    align-self: flex-start;
+    text-align: left; /* ชิดข้อความไปทางซ้าย */
+}
+
+.btn-danger {
+    
+    padding: 5px 90px; /* ปรับขนาดของปุ่ม */
+    margin-left: 5px;
+    background-color: #dc3545; /* สีพื้นหลังปุ่ม */
+    border: 1px solid #dc3545; /* สีขอบของปุ่ม */
+    border-radius: 5px; /* ทำให้มีมุมโค้ง */
+}
+.fa-bars {
+    font-size: 30px; /* ปรับขนาดไอคอนตามที่คุณต้องการ */
+}
+
+.flex-container {
+    display: flex;
+    align-items: baseline; /* จัดให้ช่องกรอกอยู่บรรทัดเดียวกัน */
+}
+
+.form-control {
+    margin-right: 10px; /* ระยะห่างระหว่างช่องกรอก */
+}
+
+
+.user-actions a:hover {
+    color: red;
+}
+
+/* กำหนดสีเมื่อ hover ที่ลิงก์ "ตระกร้าสินค้า" */
+.navbar a:hover {
+    color: red;
+}
+
+.logo a:hover {
+    color: #fff;
+}
+
+
+
+.navbar-divider {
+color: #fff; /* สีข้อความ */
+margin: 0 10px; /* ระยะห่างระหว่างเครื่องหมาย | และลิงค์ */
+display: flex;
+align-items: center;
+}
+
+/* Modal style */
+.modal-content {
+background-color: #fff; /* สีพื้นหลังของ Modal */
+color: #000; /* สีข้อความ */
+}
+
+.modal-body {
+padding: 30px;
+}
+
+
